@@ -35,6 +35,7 @@ body{
       margin-bottom: 20px;
       font-weight: bold;
       color: #333;
+      padding-top: 30px;
     }
 
 button{
@@ -51,3 +52,17 @@ button{
 button:hover {
       opacity: 0.8;
     }
+
+    @media (max-width: 480px) and (max-width:768px) {
+
+  .container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    height: auto; 
+    width: auto;
+
+}
+}
