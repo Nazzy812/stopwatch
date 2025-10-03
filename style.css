@@ -61,6 +61,8 @@ button:hover {
     justify-content: center;
     align-items: center;
     background-color: crimson;
+    padding: 20px;
+    margin: 20px;
     height: auto; 
     width: auto;
 
